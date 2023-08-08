@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b1af7e5d97e43110a7ae7b771153afe2" label="Publisher" max_length="40" name="x_168615_bookwor_0_publisher" type="collection">
+        <element display="true" label="Name" max_length="128" name="name" type="string"/>
+        <element label="URL" max_length="40" name="url" type="url"/>
+    </element>
+</database>

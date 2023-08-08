@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="663ebed997e43110a7ae7b771153afbf" label="Author" max_length="40" name="x_168615_bookwor_0_authors" type="collection">
+        <element label="Full name" max_length="1024" name="full_name" type="string"/>
+        <element label="Link" max_length="40" name="link" type="url"/>
+        <element label="Moly ID" max_length="40" name="moly_id" type="integer"/>
+        <element label="Name" max_length="128" name="name" type="string"/>
+    </element>
+</database>

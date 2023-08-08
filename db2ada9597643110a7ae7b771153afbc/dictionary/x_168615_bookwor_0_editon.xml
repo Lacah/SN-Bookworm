@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d0304b9d97e43110a7ae7b771153af8b" label="Editon" max_length="40" name="x_168615_bookwor_0_editon" type="collection">
+        <element label="Cover" max_length="255" name="cover" type="user_image"/>
+        <element display="true" label="ISBN" max_length="40" name="isbn" type="string"/>
+        <element label="Moly ID" max_length="40" name="moly_id" type="integer"/>
+        <element label="Pages" max_length="40" name="pages" type="integer"/>
+        <element label="Place" max_length="32" name="place" reference="cmn_location" type="reference"/>
+        <element label="Publisher" max_length="32" name="publisher" reference="x_168615_bookwor_0_publisher" type="reference"/>
+        <element label="Year" max_length="40" name="year" type="integer"/>
+        <index name="index">
+            <element name="place"/>
+        </index>
+        <index name="index2">
+            <element name="publisher"/>
+        </index>
+    </element>
+</database>
