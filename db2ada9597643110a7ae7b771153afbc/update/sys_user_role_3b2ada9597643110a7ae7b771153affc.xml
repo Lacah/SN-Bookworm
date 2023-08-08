@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Catalogue Administrator</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_168615_bookwor_0.librarian</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>librarian</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-08 13:13:58</sys_created_on>
+        <sys_id>3b2ada9597643110a7ae7b771153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_168615_bookwor_0.librarian</sys_name>
+        <sys_package display_value="Bookworm App" source="x_168615_bookwor_0">db2ada9597643110a7ae7b771153afbc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bookworm App">db2ada9597643110a7ae7b771153afbc</sys_scope>
+        <sys_update_name>sys_user_role_3b2ada9597643110a7ae7b771153affc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 13:13:58</sys_updated_on>
+    </sys_user_role>
+</record_update>
